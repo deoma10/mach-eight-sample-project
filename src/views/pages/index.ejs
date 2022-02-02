@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Mach Eight Sample Project</title>
+</head>
+<body>
+    <main>
+        <h1>Mach Eight Sample Project</h1>
+        <form action="/result" method="POST">
+            <label for="inches">Ingresa una entrada en pulgadas (in)</label>
+            <input type="number" name="number">
+            <input type="submit" value="Buscar parejas">
+        </form>
+        <% if (players) { %>
+            <% players.forEach(player => { %>
+                <p><%=player.first_name1  %> <strong><%= player.h_in1 %></strong> - <%=player.first_name2  %> <strong><%= player.h_in2%></strong> </p>
+            <% }) %>
+        <% } %>
+        <p><%= find %></p> 
+
+    </main>
+    
+</body>
+</html>

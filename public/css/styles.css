@@ -1,0 +1,16 @@
+body{
+    background-color: #000000 ;
+    color: #ffffff
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40%;
+}
+main h1 {
+    color: #f5f55c
+}
+main p strong {
+    color: #f5f55c;
+}
