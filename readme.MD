@@ -7,6 +7,8 @@ _Este proyecto hace parte de una prueba técnica para Prometo Talent en la cual 
 
 _Para ejecutar el proyecto en tu maquina por favor realiza un git clone de este repositorio y utiliza el comando npm start para iniciar el servidor en tu localhost en el puerto 3000_
 
+_Tambien puedes ver el proyecto en linea en el siguiente enlace:https://mach-eight-sample-project.herokuapp.com/result_
+
 ## Construido con 🛠️
 
 _Herramientas que utilicé para crear el proyecto_
