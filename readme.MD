@@ -13,6 +13,8 @@ _El algoritmo que desarrollé para encontrar los pares de jugadores esta dividid
 
 _El algoritmo que resuelve el ejercicio se encuentra en la siguiente ubicación src/controller/pagesController, especificamento en el método postIndex_
 
+_Tambien puedes ver el proyecto en linea en el siguiente enlace: https://mach-eight-sample-project.herokuapp.com_
+
 ## Construido con 🛠️
 
 _Herramientas que utilicé para crear el proyecto_
