@@ -5,7 +5,13 @@ _Este proyecto hace parte de una prueba técnica para Prometo Talent en la cual 
 
 ## Comenzando 🚀
 
-_Para ejecutar el proyecto en tu maquina por favor realiza un git clone de este repositorio y utiliza el comando npm start para iniciar el servidor en tu localhost en el puerto 3000_
+_Para ejecutar el proyecto en tu maquina por favor realiza un git clone de este repositorio y utiliza el comando npm install y luego npm start para iniciar el servidor en tu localhost en el puerto 3000_
+
+
+## El algoritmo
+_El algoritmo que desarrollé para encontrar los pares de jugadores esta dividido en dos etapas, en una primera etapa se itera sobre el array y se encuentra los valores mínimo y máximo de altura en pulgadas, esto para poder conocer los limites o el rango en el cual se podrian encontrar pares, en una segunda fase se realiza una nueva iteración anidada donde se hace uso de un condicional que comprueba la condición de igualdad con respecto al valor ingresado por el usuario en el frontend, para reducir el consumo de recursos por parte de la maquina esta iteración se ejecuta si y solo si el numero ingresado se encuentra dentro del rango construido con los valores máximo y mínimo_
+
+_El algoritmo que resuelve el ejercicio se encuentra en la siguiente ubicación src/controller/pagesController, especificamento en el método postIndex_
 
 ## Construido con 🛠️
 

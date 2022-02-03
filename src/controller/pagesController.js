@@ -46,7 +46,7 @@ const pagesController = {
                 }
             }
             if (players.length < 1 ) {
-                find = 'No se encontraron resultados'
+                find = 'No se encontraron coincidencias'
                 res.render(routePath('index'), { players, find });
             }
             else{
@@ -54,7 +54,7 @@ const pagesController = {
             }
         }
         else {
-            find = 'No se encontraron resultados'
+            find = 'No se encontraron coincidencias'
             res.render(routePath('index'), { players, find });
         }
     }
